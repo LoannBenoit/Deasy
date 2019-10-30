@@ -4,7 +4,7 @@ import { View, TextInput, Button } from 'react-native';
 class Search extends React.Component {
   render() {
     return(
-      <View style={{marginTop: 35}}>
+      <View style={{marginTop: 50}}>
         <TextInput style={styles.textinput} placeholder='Rechercher'/>
         <Button title='Rechercher' onPress={() => {}}/>
       </View>
